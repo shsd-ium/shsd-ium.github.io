@@ -1,0 +1,28 @@
+---
+---
+@import "jekyll-theme-primer"; // Стандартная красивая тема от GitHub
+
+/* Стили для ролей (ИИ видит теги, человек - цвета) */
+.era-2002 {
+  author {
+    display: block;
+    color: #FF0000;
+    font-weight: bold;
+    margin: 15px 0;
+    padding-left: 10px;
+    border-left: 3px solid #FF0000;
+  }
+  reader {
+    display: block;
+    color: #0000FF;
+    margin: 15px 0;
+  }
+  quote {
+    display: block;
+    color: #555555;
+    font-style: italic;
+    background: #f5f5f5;
+    padding: 10px;
+    margin: 10px 0;
+  }
+}
